@@ -1,0 +1,10 @@
+# Arithmetic Operator
+
+a=int(raw_input())
+b=int(raw_input())
+sum=a+b
+print(sum)
+sub=a-b
+print(sub)
+mul=a*b
+print(mul)
