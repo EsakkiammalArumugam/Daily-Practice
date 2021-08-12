@@ -1,0 +1,12 @@
+# Find second largest element in array
+
+n = int(input())
+a=list(map(int,input().split()))[:n]
+a.sort(reverse=True)
+for i in range(n):
+    if a[i]!=a[i+1]:
+      ans=a[i+1]
+      break
+print(ans)
+    
+    
